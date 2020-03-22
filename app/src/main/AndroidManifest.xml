@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.anew.colg">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Studhome"></activity>
+        <activity android:name=".Studelig"></activity>
+        <activity android:name=".Studrep"></activity>
+        <activity android:name=".Studsearch"></activity>
+        <activity android:name=".Studreg"></activity>
+        <activity android:name=".Faculo"></activity>
+        <activity android:name=".Facusear"></activity>
+        <activity android:name=".Facureg"></activity>
+        <activity android:name=".Facuhome"></activity>
+        <activity android:name=".Studlo"></activity>
+        <activity android:name=".Facurep"></activity>
+
+    </application>
+
+</manifest>
